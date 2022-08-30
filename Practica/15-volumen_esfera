@@ -1,0 +1,22 @@
+#Ejercicio 15: Calcular el volumen de una esfera a partir del radio
+import math
+from math import pi
+
+# r= float(input("Escriba el radio de la Esfera"))
+
+# volumen= 4/3*pi*r**3
+# redondeo= round(volumen, 2)
+
+# print("El volumen de para una esfera con radio {} es : {}".format(r,redondeo))
+#-------------------------------------------------------------
+
+#Calcular el volumen de otra manera usando la funcion pow de la libreria math
+
+# print(pow(4,2))
+
+r= float(input("Escriba el radio de la Esfera"))
+
+volumen= 4/3*pi*pow(r,3)
+redondeo= round(volumen, 2)
+
+print("El volumen de una esfera con radio {} es : {}".format(r,redondeo))
